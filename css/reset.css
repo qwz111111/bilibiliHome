@@ -1,0 +1,70 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+i,
+span,
+a {
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+}

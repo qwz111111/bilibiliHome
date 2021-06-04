@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.min.js"></script>
+    <style>
+        .fyuan {
+            transform: translate(250.839px, 15.6774px);
+            opacity: 1;
+            transition: all 0.5s ease-in-out;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="position: absolute; width: 100px; height: 100px; background-color: rebeccapurple;"></div>
+    <script>
+        $("div").mouseleave(function() {
+            $("div").addClass('fyuan');
+        });
+
+        //y=kx+b
+        // var array1 = [0, -1161];
+        // var array2 = [1920, -4674];
+
+
+        // var array3 = [669, 1];
+        // var array4 = [1920, 0];
+
+        // function fc(array1, array2) {
+        //     k = (array2[1] - array1[1]) / (array2[0] - array1[0]);
+        //     b = (array1[1] * array2[0] - array1[0] * array2[1]) / (array2[0] - array1[0])
+        //     return k + ' * ex + ' + b;
+        // }
+        // document.write(fc(array1, array2));
+        //document.write(fc(array3, array4));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+.animated-banner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -16px;
+    right: 0;
+    overflow: hidden;
+    height: 180px;
+}
+
+.layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.layer:nth-child(1) img {
+    transform: translate(0px, -17.4194px);
+    opacity: 1;
+    height: 209px;
+    width: 5612px;
+}
+
+.layer:nth-child(2) img {
+    transform: translate(1277.42px, 0px);
+    opacity: 1;
+    height: 209px;
+    width: 5612px;
+}
+
+.layer:nth-child(3) img {
+    transform: translate(783.871px, 0px);
+    opacity: 1;
+    height: 188px;
+    width: 1841px;
+}
+
+.layer:nth-child(4) img {
+    transform: translate(-739.742px, 0px);
+    opacity: 1;
+    height: 204px;
+    width: 1671px;
+}
+
+.layer:nth-child(5) img {
+    transform: translate(705.484px, 52.2581px);
+    opacity: 1;
+    height: 72px;
+    width: 290px;
+}
+
+.layer:nth-child(6) img {
+    transform: translate(292.645px, 42.271px);
+    opacity: 0;
+    height: 98px;
+    width: 238px;
+}
+
+.layer:nth-child(7) img {
+    transform: translate(130.065px, 16.2581px);
+    opacity: 1;
+    height: 146px;
+    width: 1428px;
+}
+
+.layer:nth-child(8) img {
+    transform: translate(-406.452px, 56.9032px);
+    opacity: 1;
+    height: 94px;
+    width: 1428px;
+}
+
+.layer:nth-child(9) img {
+    transform: translate(-278.71px, 18.5806px);
+    opacity: 0;
+    height: 160px;
+    width: 230px;
+}
+
+.layer:nth-child(10) img {
+    transform: translate(-394.839px, 37.1613px);
+    opacity: 0;
+    height: 118px;
+    width: 67px;
+}
+
+.layer:nth-child(11) img {
+    transform: translate(-104.516px, 15.6774px);
+    opacity: 1;
+    height: 132px;
+    width: 314px;
+}
+
+.layer:nth-child(12) img {
+    transform: translate(116.129px, 0px);
+    opacity: 1;
+    height: 209px;
+    width: 2483px;
+}
+
+.layer:nth-child(13) img {
+    transform: translate(250.839px, 15.6774px);
+    opacity: 1;
+    height: 170px;
+    width: 487px;
+}
+
+.layer:nth-child(13) img {
+    transform: translate(250.839px, 15.6774px);
+    opacity: 1;
+    height: 170px;
+    width: 487px;
+}
+
+.layer:nth-child(14) img {
+    transform: translate(2438.71px, 0px);
+    filter: blur(2px);
+    opacity: 1;
+    height: 245px;
+    width: 515px;
+}
+
+.layer:nth-child(15) img {
+    transform: translate(-1161.29px, 0px);
+    filter: blur(1px);
+    opacity: 1;
+    height: 209px;
+    width: 1112px;
+}
